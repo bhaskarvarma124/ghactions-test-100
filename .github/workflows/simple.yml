@@ -12,3 +12,8 @@ jobs:
         run: |
           node -v
           npm -v
+      - name: puthon commands
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
